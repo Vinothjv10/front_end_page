@@ -1,0 +1,38 @@
+<div class="service_cont">
+    <div class="container mt-5">
+        <div class="services">
+            <div class="services_title">
+                Our Services
+                <hr id="hr">
+            </div>
+            <div class="sub_title" style="text-align: center;">
+                At Honeycomb, we strive to be a product driven company focusing on developing unique products which
+                brings
+                great
+                value to customers At Honeycomb, we strive to be a product driven company focusing on developing unique
+                products
+                which brings great value to customers
+            </div>
+
+            <div class="services_row mt-5">
+                <div class="services_card" *ngFor="let card of card_details">
+                    <div class="service_card_img mt-2">
+                        <img id="image" src="{{card.image}}" alt="">
+                    </div>
+                    <div class="service_card_title">
+                        {{card.title}}
+                    </div>
+                    <div class="service_card_para">
+                        {{card.para}}
+                    </div>
+                </div>
+                <div class="btn" style="text-align: center;">
+                    <button type="button" class="btn btn-primary mt-2 p-2">All Services</button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+<br>

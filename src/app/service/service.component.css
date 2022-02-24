@@ -1,0 +1,173 @@
+.service_cont{
+    background: linear-gradient(to bottom,#9eedf0,#d5f0f8);
+
+}
+.services{
+    width: 100%;
+    height: 640px;
+}
+.services_title{
+    font-family: "Roboto",cursive;
+font-style: normal;
+font-weight: bold;
+font-size: 68px;
+line-height: 85px;
+/* identical to box height, or 125% */
+
+
+text-align: center;
+
+color: #2B2D42;
+}
+.services_row{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.services_card{
+    margin-top: 20px;
+    background: #FFFFFF;
+/* border: 2px solid #2B2D42; */
+box-sizing: border-box;
+border-radius: 10px;
+    width: 358px;
+    height: 258px;
+     margin: 5px;
+}
+.service_card_img{
+    width: 55px;
+    height: 48px;
+    /* margin-top: 50px; */
+    margin-left: 150px;
+}
+img{
+    margin-top: -60px;
+    margin-left: -40px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.service_card_title{
+    width: 241px;
+    height: 72px;
+    /* margin-top: 10px; */
+    margin-left: 60px;
+
+    font-family: 'Nunito';
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 85px;
+/* or 354% */
+
+text-align: center;
+
+color: #2B2D42;
+
+}
+.service_card_para{
+    width: 310px;
+    height: 110px;
+    /* margin-top: 10px; */
+    margin-left: 25px;
+}
+.business{
+    width: 100%;
+    height: 570px;
+    display: flex;
+    justify-content: center;
+}
+.business_card{
+    margin-top: 190px;
+    width: 1228px;
+    height: 380px;
+    border-radius: 10px;
+    background: #2B2D42;
+}
+.business_card_1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.business_card_2{
+    width: 620px;
+    height: 340px;
+    margin: 20px;
+}
+.business_card_3{
+    width: 420px;
+    height: 540px;
+    margin: 20px;
+    margin-top: -180px;
+    /* background: yellow; */
+}
+.business_card_2_cont{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.business_card_title{
+    font-family: 'Nunito',sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 55px;
+line-height: 75px;
+/* or 136% */
+
+
+color: #FFFFFF;
+}
+.business_card_para{
+    margin-top: 10px;
+    font-family: 'Nunito',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+/* or 150% */
+
+
+color: #FFFFFF;
+}
+.business_card_btn{
+    margin-top: 30px;
+    border: none;
+    width: 327px;
+height: 65px;
+background: #E08B32;
+border-radius: 10px;
+
+font-family: "Nunito",sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 40px;
+/* or 167% */
+
+text-align: center;
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+.services_card:hover{
+    border: 10px solid #4380f0;
+}
+#hr{
+    border-top: 1px solid #000; width: 50%; margin-left: 350px;
+}
+@media(max-width:800px){
+    .services{
+        height: 1500px;
+    }
+    .business_card{
+        width: 100%;
+        height: 950px;
+        margin: 0;
+    }
+    .business_card_3{
+        margin: 0;
+    }
+    #hr{
+        margin-left: 80px;
+    }
+}

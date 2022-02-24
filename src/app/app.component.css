@@ -1,0 +1,45 @@
+.contain{
+    height: 50px;
+    flex-wrap: wrap;
+}
+.cards-1{
+    width: 1300px;
+    height: 40px;
+    /* background: red; */
+}
+#card-1{
+    /* margin-left: 70px; */
+    width: 400px;
+    height: 40px;
+    /* background: green; */
+    justify-content: end;
+}
+a{
+    color: black;
+}
+img{
+    width: 30px;
+    height: 30px;
+}
+#img_1{
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+}
+#img-4{
+    margin-left: 13px;
+    margin-right: 13px;
+}
+
+@media(max-width:800px)
+{
+    .contain{
+        height: 100px;
+    }
+    #img_1{
+        margin: 0;
+    }
+    #img-4{
+        /* display: none; */
+    }
+}

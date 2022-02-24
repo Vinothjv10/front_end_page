@@ -1,0 +1,26 @@
+#foot_container{
+    background: url(footer.png);
+}
+.foot_card-1{
+    width: 570px;
+    height: 150px;
+    color: #000;;
+    /* background: red; */
+}
+.foot_card-2{
+    width: 400px;
+    height: 150px;
+    /* background: greenyellow; */
+}
+
+@media(max-width:700px)
+{
+    #foot_container{
+        flex-wrap: wrap;
+        height: 500px;
+    }
+    .foot_card-1{
+        flex: 100%;
+        width: 100%;
+    }
+}

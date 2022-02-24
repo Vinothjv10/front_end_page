@@ -1,0 +1,91 @@
+.card-1{
+    width: 750px;
+    height: 320px;
+    /* background: red; */
+}
+#card_1{
+    margin-top: 200px;
+}
+.card-2{
+    width: 530px;
+    height: 220px;
+    /* background: green; */
+}
+#home_container{
+    background: linear-gradient(to bottom,#9eedf0,#d5f0f8);
+    height: 600px;
+    flex-wrap: wrap;
+}
+.font_head{
+    font-size: 3rem;
+}
+#img_1{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
+.expri{
+    width: 70%;
+    height: 400px;
+}
+
+.expri_card_1{
+    width: 750px;
+    height: 280px;
+}
+.expri_card-2{
+    width: 530px;
+    height: 340px;
+    /* background: green; */
+    overflow: hidden;
+}
+.expri_card-3{
+    margin-left: 600px;
+    margin-top: -230px;
+    width: 70px;
+    height: 50px;
+    /* background: black; */
+    overflow: hidden;
+}
+.card {
+    /* box-sizing: border-box; */
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 100px;
+     margin: 19px; 
+  }
+#book_img{
+    margin-left: 60px;
+    width: 60px;
+    height: 60px;
+}
+
+@media(max-width: 800px)
+{
+    #home_container{
+        height: 1600px;
+    }
+    .card-1{
+        margin: 0;
+    }
+    #img_1{
+        width: 100%;
+    }
+    #expri_container{
+        height: 1200px;
+        flex-wrap: wrap;
+    }
+    img{
+        width: 100%;
+    }
+    .expri{
+        height: 800px;
+    }
+    .expri_card-3{
+        display: none;
+    }
+    .books_card{
+        flex-wrap: wrap;
+    }
+}
